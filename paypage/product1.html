@@ -101,22 +101,28 @@ function subtractQty(){
         	<h1 class="product-h1">Anello时尚背包</h1>
             <p><span class="am-fr product-title-gray-text"><i class="am-icon-star"></i>收藏</span><span class="bold">价格：</span><span class="red2">￥258.00</span></p>
         </div>
+        <!--<div class="my-search-title-panel">-->
+        	<!--<ul class="am-avg-sm-4 am-text-center am-text-sm">-->
+            	<!--&lt;!&ndash;<li class="am-text-center">销量<br />0件</li>&ndash;&gt;-->
+                <!--&lt;!&ndash;<li class="am-text-center">库存<br />0件</li>&ndash;&gt;-->
+                <!--&lt;!&ndash;<li class="am-text-center">订单<br />0个</li>&ndash;&gt;-->
+                <!--&lt;!&ndash;<li class="am-text-center">评价<br />0条</li>&ndash;&gt;-->
+            <!--</ul>-->
+    	<!--</div>-->
         <div class="my-search-title-panel">
-        	<ul class="am-avg-sm-4 am-text-center am-text-sm">
-            	<!--<li class="am-text-center">销量<br />0件</li>-->
-                <!--<li class="am-text-center">库存<br />0件</li>-->
-                <!--<li class="am-text-center">订单<br />0个</li>-->
-                <!--<li class="am-text-center">评价<br />0条</li>-->
-            </ul>
-    	</div>
-        <div class="my-search-title-panel">
-        	<!--<p class="my-search-titp-p am-text-sm bold">尺码</p>-->
-            <!--<p class="size-p" id="sizep"><span data-size="S">S</span><span data-size="M">M</span><span data-size="L">L</span><span data-size="XL">XL</span><span data-size="XXL">XXL</span><input type="hidden" id="size" name="size" value="" /></p>-->
+        	<p class="my-search-titp-p am-text-sm bold">尺码</p>
+            <p class="size-p" id="sizep">
+                <span data-size="S">S</span>
+                <span data-size="M">M</span>
+                <span data-size="L">L</span>
+                <span data-size="XL">XL</span>
+                <span data-size="XXL">XXL</span>
+                <input type="hidden" id="size" name="size" value="" /></p>
             <script>
 				$(document).ready(function(e) {
                     $("#sizep span").click(function(){
 						$("#sizep span").removeClass('click');
-						$(this).addClass('click');ßß
+						$(this).addClass('click');
 						var s = $(this).attr('data-size');
 						$("#size").val(s);
 					});
@@ -132,7 +138,7 @@ function subtractQty(){
             <hr data-am-widget="divider" style="" class="am-divider-default am-margin-bottom-sm"/>
             <p class="my-search-titp-p am-text-sm bold">颜色分类</p>
             <p class="size-p" id="colorp">
-            	<!--<span data-color="酒红色">酒红色</span><span data-color="黑色">黑色</span><input type="hidden" id="color" name="color" value="" />-->
+            	<span data-color="酒红色">酒红色</span><span data-color="黑色">黑色</span><input type="hidden" id="color" name="color" value="" />
             </p>
             <hr data-am-widget="divider" style="" class="am-divider-default am-margin-bottom-sm"/>
             <p class="my-search-titp-p am-text-sm bold">数量</p>
@@ -152,8 +158,16 @@ function subtractQty(){
         </div>
         <div class="paoduct-title-panel">
         	<h2 class="product-h1">商品信息</h2>
-            <p><span class="product-title-gray-text">anello背包。空间大，口袋多，利于携带。<br/>更有多色可选<br/>尺寸为26*40*17男女均可使用。</span></p>
+            <p>
+                关于Anello：Anello品牌源自日本，2005年创立，主要产品为箱包行业，anello品牌消费目标群体定位在16~30岁，在设计素材一直采用比较当季流行元素。
+                因代购跑腿成本、消费税、空运费用等因素影响，导致国内售价会比日本当地售价会略贵，低于日本当地零售价5折以下的均可视为Anello假货，亲们请勿贪图小便宜，得不偿失！
+                anello背包。空间大，口袋多，利于携带。更有多色可选尺寸为26*40*17男女均可使用。
+            </p>
             <hr data-am-widget="divider" style="" class="am-divider-default am-margin-bottom-sm"/>
+            <img src="default/anello1.jpg" width="100%">
+            <img src="default/anello2.jpg" width="100%">
+            <img src="default/anello3.jpg" width="100%">
+            <img src="default/anello4.jpg" width="100%">
             <div style="overflow:hidden">
             <ul class="am-avg-sm-2 am-text-center am-padding-bottom-sm">
             	<!--<li class="am-text-center"><a href="#"><i class="am-icon-bank"></i> 进店逛逛</a></li>-->
@@ -165,14 +179,14 @@ function subtractQty(){
             <!-- 商品详情 -->
         
         <div data-am-widget="tabs" class="am-tabs am-tabs-d2">
-          <ul class="am-tabs-nav am-cf">
-            <li class="am-active">
-              <a href="[data-tab-panel-0]">详情</a>
-            </li>
+          <!--<ul class="am-tabs-nav am-cf">-->
+            <!--<li class="am-active">-->
+              <!--<a href="[data-tab-panel-0]">详情</a>-->
+            <!--</li>-->
 
-          </ul>
+          <!--</ul>-->
           <div class="am-tabs-bd">
-            <div data-tab-panel-0 class="am-tab-panel am-active">来自日本的时尚品牌。国民级背包。有多种尺寸多种配色。男女老少皆宜。是您外出、郊游的不二之选。</div>
+            <!--<div data-tab-panel-0 class="am-tab-panel am-active">来自日本的时尚品牌。国民级背包。有多种尺寸多种配色。男女老少皆宜。是您外出、郊游的不二之选。</div>-->
             <div data-tab-panel-1 class="am-tab-panel ">
             
             <ul class="am-list am-list-static am-list-border am-list-striped am-text-sm">
@@ -244,9 +258,6 @@ function subtractQty(){
           </div>
         </div>
         </div>
-    
-    
-    
     <footer data-am-widget="footer" class="am-footer am-footer-default" data-am-footer="{  }">
         <hr data-am-widget="divider" style="" class="am-divider am-divider-default"/>
       <div class="am-footer-miscs ">
